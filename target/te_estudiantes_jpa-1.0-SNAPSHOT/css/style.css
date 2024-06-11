@@ -1,0 +1,155 @@
+/* Archivo: css/style.css */
+
+/* Estilos generales */
+body {
+    font-family: Tahoma, Consolas;
+    background-color: #2ECC71 ;
+    color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #f1f1f1;
+    margin-top: 20px;
+}
+
+/* Estilos para el botón nuevo */
+.btn-nuv {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #5a5a5a;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-nuv:hover {
+    background-color: #444;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #3c3c3c;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #555;
+}
+
+th {
+    background-color: #4CAEAF;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #4c4c4c;
+}
+
+tr:hover {
+    background-color: #555;
+}
+
+td a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el formulario */
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #3c3c3c;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"] {
+    background-color: #555;
+    color: #f1f1f1;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.btn-nuv {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00aaff;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-nuv:hover {
+    background-color: #0088cc;
+}
+
+/* Estilos para enlaces de botón */
+a.btn {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #5a5a5a;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a.btn:hover {
+    background-color: #444;
+}
+
+a.cancel-btn {
+    background-color: #d9534f;
+}
+
+a.cancel-btn:hover {
+    background-color: #c9302c;
+}
